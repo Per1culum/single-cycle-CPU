@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Fri Jul  1 17:44:32 2022
+# Process ID: 11556
+# Current directory: D:/vivadoprogram/signalCycleCPU
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13952 D:\vivadoprogram\signalCycleCPU\signalCycleCPU.xpr
+# Log file: D:/vivadoprogram/signalCycleCPU/vivado.log
+# Journal file: D:/vivadoprogram/signalCycleCPU\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/vivadoprogram/signalCycleCPU/signalCycleCPU.xpr

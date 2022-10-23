@@ -1,0 +1,623 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Fri Jul  1 17:18:27 2022
+# Process ID: 20468
+# Current directory: D:/vivadoprogram/signalCycleCPU/signalCycleCPU.runs/synth_1
+# Command line: vivado.exe -log top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top.tcl
+# Log file: D:/vivadoprogram/signalCycleCPU/signalCycleCPU.runs/synth_1/top.vds
+# Journal file: D:/vivadoprogram/signalCycleCPU/signalCycleCPU.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source top.tcl -notrace
+Command: synth_design -top top -part xc7a35tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Device 21-403] Loading part xc7a35tcsg324-1
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 3028 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 793.125 ; gain = 177.094
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'top' [D:/vivadoprogram/signalCycleCPU/signalCycleCPU.srcs/sources_1/new/top.v:23]
+INFO: [Synth 8-6157] synthesizing module 'PC' [D:/vivadoprogram/signalCycleCPU/signalCycleCPU.srcs/sources_1/new/PC.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'PC' (1#1) [D:/vivadoprogram/signalCycleCPU/signalCycleCPU.srcs/sources_1/new/PC.v:23]
+INFO: [Synth 8-6157] synthesizing module 'rom' [D:/vivadoprogram/signalCycleCPU/signalCycleCPU.srcs/sources_1/new/rom.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'rom' (2#1) [D:/vivadoprogram/signalCycleCPU/signalCycleCPU.srcs/sources_1/new/rom.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ID' [D:/vivadoprogram/signalCycleCPU/signalCycleCPU.srcs/sources_1/new/ID.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'ID' (3#1) [D:/vivadoprogram/signalCycleCPU/signalCycleCPU.srcs/sources_1/new/ID.v:23]
+INFO: [Synth 8-6157] synthesizing module 'CU' [D:/vivadoprogram/signalCycleCPU/signalCycleCPU.srcs/sources_1/new/CU.v:22]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/vivadoprogram/signalCycleCPU/signalCycleCPU.srcs/sources_1/new/CU.v:54]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/vivadoprogram/signalCycleCPU/signalCycleCPU.srcs/sources_1/new/CU.v:50]
+INFO: [Synth 8-6155] done synthesizing module 'CU' (4#1) [D:/vivadoprogram/signalCycleCPU/signalCycleCPU.srcs/sources_1/new/CU.v:22]
+INFO: [Synth 8-6157] synthesizing module 'ext_imm' [D:/vivadoprogram/signalCycleCPU/signalCycleCPU.srcs/sources_1/new/ext_imm.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'ext_imm' (5#1) [D:/vivadoprogram/signalCycleCPU/signalCycleCPU.srcs/sources_1/new/ext_imm.v:23]
+INFO: [Synth 8-6157] synthesizing module 'selector_5' [D:/vivadoprogram/signalCycleCPU/signalCycleCPU.srcs/sources_1/new/selector_5.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'selector_5' (6#1) [D:/vivadoprogram/signalCycleCPU/signalCycleCPU.srcs/sources_1/new/selector_5.v:23]
+INFO: [Synth 8-6157] synthesizing module 'alu_add_4' [D:/vivadoprogram/signalCycleCPU/signalCycleCPU.srcs/sources_1/new/alu_add_4.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'alu_add_4' (7#1) [D:/vivadoprogram/signalCycleCPU/signalCycleCPU.srcs/sources_1/new/alu_add_4.v:22]
+INFO: [Synth 8-6157] synthesizing module 'selector_32' [D:/vivadoprogram/signalCycleCPU/signalCycleCPU.srcs/sources_1/new/selector_32.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'selector_32' (8#1) [D:/vivadoprogram/signalCycleCPU/signalCycleCPU.srcs/sources_1/new/selector_32.v:23]
+INFO: [Synth 8-6157] synthesizing module 'registers' [D:/vivadoprogram/signalCycleCPU/signalCycleCPU.srcs/sources_1/new/registers.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'registers' (9#1) [D:/vivadoprogram/signalCycleCPU/signalCycleCPU.srcs/sources_1/new/registers.v:23]
+INFO: [Synth 8-6157] synthesizing module 'isimm' [D:/vivadoprogram/signalCycleCPU/signalCycleCPU.srcs/sources_1/new/isimm.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'isimm' (10#1) [D:/vivadoprogram/signalCycleCPU/signalCycleCPU.srcs/sources_1/new/isimm.v:23]
+INFO: [Synth 8-6157] synthesizing module 'alu' [D:/vivadoprogram/signalCycleCPU/signalCycleCPU.srcs/sources_1/new/ALU.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'alu' (11#1) [D:/vivadoprogram/signalCycleCPU/signalCycleCPU.srcs/sources_1/new/ALU.v:23]
+INFO: [Synth 8-6157] synthesizing module 'IOManager' [D:/vivadoprogram/signalCycleCPU/signalCycleCPU.srcs/sources_1/new/IOManager.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ram' [D:/vivadoprogram/signalCycleCPU/signalCycleCPU.srcs/sources_1/new/ram.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'ram' (12#1) [D:/vivadoprogram/signalCycleCPU/signalCycleCPU.srcs/sources_1/new/ram.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'IOManager' (13#1) [D:/vivadoprogram/signalCycleCPU/signalCycleCPU.srcs/sources_1/new/IOManager.v:23]
+WARNING: [Synth 8-689] width (32) of port connection 'addr' does not match port width (6) of module 'IOManager' [D:/vivadoprogram/signalCycleCPU/signalCycleCPU.srcs/sources_1/new/top.v:67]
+WARNING: [Synth 8-689] width (5) of port connection 'switch' does not match port width (4) of module 'IOManager' [D:/vivadoprogram/signalCycleCPU/signalCycleCPU.srcs/sources_1/new/top.v:67]
+INFO: [Synth 8-6157] synthesizing module 'left' [D:/vivadoprogram/signalCycleCPU/signalCycleCPU.srcs/sources_1/new/left.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'left' (14#1) [D:/vivadoprogram/signalCycleCPU/signalCycleCPU.srcs/sources_1/new/left.v:23]
+INFO: [Synth 8-6157] synthesizing module 'alu_add_b' [D:/vivadoprogram/signalCycleCPU/signalCycleCPU.srcs/sources_1/new/alu_add_b.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'alu_add_b' (15#1) [D:/vivadoprogram/signalCycleCPU/signalCycleCPU.srcs/sources_1/new/alu_add_b.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ext_adder' [D:/vivadoprogram/signalCycleCPU/signalCycleCPU.srcs/sources_1/new/ext_adder.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'ext_adder' (16#1) [D:/vivadoprogram/signalCycleCPU/signalCycleCPU.srcs/sources_1/new/ext_adder.v:23]
+INFO: [Synth 8-6157] synthesizing module 'mixAddr' [D:/vivadoprogram/signalCycleCPU/signalCycleCPU.srcs/sources_1/new/mixAddr.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'mixAddr' (17#1) [D:/vivadoprogram/signalCycleCPU/signalCycleCPU.srcs/sources_1/new/mixAddr.v:23]
+INFO: [Synth 8-6157] synthesizing module 'selector' [D:/vivadoprogram/signalCycleCPU/signalCycleCPU.srcs/sources_1/new/selector.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'selector' (18#1) [D:/vivadoprogram/signalCycleCPU/signalCycleCPU.srcs/sources_1/new/selector.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'top' (19#1) [D:/vivadoprogram/signalCycleCPU/signalCycleCPU.srcs/sources_1/new/top.v:23]
+WARNING: [Synth 8-3331] design mixAddr has unconnected port addr[27]
+WARNING: [Synth 8-3331] design mixAddr has unconnected port addr[26]
+WARNING: [Synth 8-3331] design mixAddr has unconnected port addr[25]
+WARNING: [Synth 8-3331] design mixAddr has unconnected port addr[24]
+WARNING: [Synth 8-3331] design mixAddr has unconnected port addr[23]
+WARNING: [Synth 8-3331] design mixAddr has unconnected port addr[22]
+WARNING: [Synth 8-3331] design mixAddr has unconnected port addr[21]
+WARNING: [Synth 8-3331] design mixAddr has unconnected port addr[20]
+WARNING: [Synth 8-3331] design mixAddr has unconnected port addr[19]
+WARNING: [Synth 8-3331] design mixAddr has unconnected port addr[18]
+WARNING: [Synth 8-3331] design mixAddr has unconnected port addr[17]
+WARNING: [Synth 8-3331] design mixAddr has unconnected port addr[16]
+WARNING: [Synth 8-3331] design mixAddr has unconnected port addr[15]
+WARNING: [Synth 8-3331] design mixAddr has unconnected port addr[14]
+WARNING: [Synth 8-3331] design mixAddr has unconnected port addr[13]
+WARNING: [Synth 8-3331] design mixAddr has unconnected port addr[12]
+WARNING: [Synth 8-3331] design mixAddr has unconnected port addr[11]
+WARNING: [Synth 8-3331] design mixAddr has unconnected port addr[10]
+WARNING: [Synth 8-3331] design mixAddr has unconnected port addr[9]
+WARNING: [Synth 8-3331] design mixAddr has unconnected port addr[8]
+WARNING: [Synth 8-3331] design mixAddr has unconnected port addr[7]
+WARNING: [Synth 8-3331] design mixAddr has unconnected port addr[6]
+WARNING: [Synth 8-3331] design mixAddr has unconnected port addr[5]
+WARNING: [Synth 8-3331] design mixAddr has unconnected port addr[4]
+WARNING: [Synth 8-3331] design mixAddr has unconnected port addr[3]
+WARNING: [Synth 8-3331] design mixAddr has unconnected port addr[2]
+WARNING: [Synth 8-3331] design mixAddr has unconnected port addr[1]
+WARNING: [Synth 8-3331] design mixAddr has unconnected port addr[0]
+WARNING: [Synth 8-3331] design rom has unconnected port addr[1]
+WARNING: [Synth 8-3331] design rom has unconnected port addr[0]
+WARNING: [Synth 8-3331] design top has unconnected port n[4]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 857.520 ; gain = 241.488
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 857.520 ; gain = 241.488
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 857.520 ; gain = 241.488
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/vivadoprogram/signalCycleCPU/signalCycleCPU.srcs/constrs_1/new/test.xdc]
+WARNING: [Vivado 12-584] No ports matched 'result[0]'. [D:/vivadoprogram/signalCycleCPU/signalCycleCPU.srcs/constrs_1/new/test.xdc:6]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/vivadoprogram/signalCycleCPU/signalCycleCPU.srcs/constrs_1/new/test.xdc:6]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'result[1]'. [D:/vivadoprogram/signalCycleCPU/signalCycleCPU.srcs/constrs_1/new/test.xdc:7]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/vivadoprogram/signalCycleCPU/signalCycleCPU.srcs/constrs_1/new/test.xdc:7]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'result[2]'. [D:/vivadoprogram/signalCycleCPU/signalCycleCPU.srcs/constrs_1/new/test.xdc:8]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/vivadoprogram/signalCycleCPU/signalCycleCPU.srcs/constrs_1/new/test.xdc:8]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'result[3]'. [D:/vivadoprogram/signalCycleCPU/signalCycleCPU.srcs/constrs_1/new/test.xdc:9]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/vivadoprogram/signalCycleCPU/signalCycleCPU.srcs/constrs_1/new/test.xdc:9]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'result[4]'. [D:/vivadoprogram/signalCycleCPU/signalCycleCPU.srcs/constrs_1/new/test.xdc:10]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/vivadoprogram/signalCycleCPU/signalCycleCPU.srcs/constrs_1/new/test.xdc:10]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'result[5]'. [D:/vivadoprogram/signalCycleCPU/signalCycleCPU.srcs/constrs_1/new/test.xdc:11]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/vivadoprogram/signalCycleCPU/signalCycleCPU.srcs/constrs_1/new/test.xdc:11]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'result[6]'. [D:/vivadoprogram/signalCycleCPU/signalCycleCPU.srcs/constrs_1/new/test.xdc:12]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/vivadoprogram/signalCycleCPU/signalCycleCPU.srcs/constrs_1/new/test.xdc:12]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'result[7]'. [D:/vivadoprogram/signalCycleCPU/signalCycleCPU.srcs/constrs_1/new/test.xdc:13]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/vivadoprogram/signalCycleCPU/signalCycleCPU.srcs/constrs_1/new/test.xdc:13]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'result[31]'. [D:/vivadoprogram/signalCycleCPU/signalCycleCPU.srcs/constrs_1/new/test.xdc:19]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/vivadoprogram/signalCycleCPU/signalCycleCPU.srcs/constrs_1/new/test.xdc:19]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'result[30]'. [D:/vivadoprogram/signalCycleCPU/signalCycleCPU.srcs/constrs_1/new/test.xdc:20]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/vivadoprogram/signalCycleCPU/signalCycleCPU.srcs/constrs_1/new/test.xdc:20]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'result[29]'. [D:/vivadoprogram/signalCycleCPU/signalCycleCPU.srcs/constrs_1/new/test.xdc:21]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/vivadoprogram/signalCycleCPU/signalCycleCPU.srcs/constrs_1/new/test.xdc:21]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'result[28]'. [D:/vivadoprogram/signalCycleCPU/signalCycleCPU.srcs/constrs_1/new/test.xdc:22]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/vivadoprogram/signalCycleCPU/signalCycleCPU.srcs/constrs_1/new/test.xdc:22]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'result[27]'. [D:/vivadoprogram/signalCycleCPU/signalCycleCPU.srcs/constrs_1/new/test.xdc:23]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/vivadoprogram/signalCycleCPU/signalCycleCPU.srcs/constrs_1/new/test.xdc:23]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'result[26]'. [D:/vivadoprogram/signalCycleCPU/signalCycleCPU.srcs/constrs_1/new/test.xdc:24]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/vivadoprogram/signalCycleCPU/signalCycleCPU.srcs/constrs_1/new/test.xdc:24]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'result[25]'. [D:/vivadoprogram/signalCycleCPU/signalCycleCPU.srcs/constrs_1/new/test.xdc:25]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/vivadoprogram/signalCycleCPU/signalCycleCPU.srcs/constrs_1/new/test.xdc:25]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'result[24]'. [D:/vivadoprogram/signalCycleCPU/signalCycleCPU.srcs/constrs_1/new/test.xdc:26]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/vivadoprogram/signalCycleCPU/signalCycleCPU.srcs/constrs_1/new/test.xdc:26]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'result[23]'. [D:/vivadoprogram/signalCycleCPU/signalCycleCPU.srcs/constrs_1/new/test.xdc:27]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/vivadoprogram/signalCycleCPU/signalCycleCPU.srcs/constrs_1/new/test.xdc:27]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'result[22]'. [D:/vivadoprogram/signalCycleCPU/signalCycleCPU.srcs/constrs_1/new/test.xdc:28]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/vivadoprogram/signalCycleCPU/signalCycleCPU.srcs/constrs_1/new/test.xdc:28]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'result[21]'. [D:/vivadoprogram/signalCycleCPU/signalCycleCPU.srcs/constrs_1/new/test.xdc:29]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/vivadoprogram/signalCycleCPU/signalCycleCPU.srcs/constrs_1/new/test.xdc:29]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'result[20]'. [D:/vivadoprogram/signalCycleCPU/signalCycleCPU.srcs/constrs_1/new/test.xdc:30]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/vivadoprogram/signalCycleCPU/signalCycleCPU.srcs/constrs_1/new/test.xdc:30]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'result[19]'. [D:/vivadoprogram/signalCycleCPU/signalCycleCPU.srcs/constrs_1/new/test.xdc:31]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/vivadoprogram/signalCycleCPU/signalCycleCPU.srcs/constrs_1/new/test.xdc:31]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'result[18]'. [D:/vivadoprogram/signalCycleCPU/signalCycleCPU.srcs/constrs_1/new/test.xdc:32]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/vivadoprogram/signalCycleCPU/signalCycleCPU.srcs/constrs_1/new/test.xdc:32]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'result[17]'. [D:/vivadoprogram/signalCycleCPU/signalCycleCPU.srcs/constrs_1/new/test.xdc:33]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/vivadoprogram/signalCycleCPU/signalCycleCPU.srcs/constrs_1/new/test.xdc:33]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'result[16]'. [D:/vivadoprogram/signalCycleCPU/signalCycleCPU.srcs/constrs_1/new/test.xdc:34]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/vivadoprogram/signalCycleCPU/signalCycleCPU.srcs/constrs_1/new/test.xdc:34]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'result[15]'. [D:/vivadoprogram/signalCycleCPU/signalCycleCPU.srcs/constrs_1/new/test.xdc:35]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/vivadoprogram/signalCycleCPU/signalCycleCPU.srcs/constrs_1/new/test.xdc:35]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'result[14]'. [D:/vivadoprogram/signalCycleCPU/signalCycleCPU.srcs/constrs_1/new/test.xdc:36]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/vivadoprogram/signalCycleCPU/signalCycleCPU.srcs/constrs_1/new/test.xdc:36]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'result[13]'. [D:/vivadoprogram/signalCycleCPU/signalCycleCPU.srcs/constrs_1/new/test.xdc:37]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/vivadoprogram/signalCycleCPU/signalCycleCPU.srcs/constrs_1/new/test.xdc:37]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'result[12]'. [D:/vivadoprogram/signalCycleCPU/signalCycleCPU.srcs/constrs_1/new/test.xdc:38]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/vivadoprogram/signalCycleCPU/signalCycleCPU.srcs/constrs_1/new/test.xdc:38]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'result[11]'. [D:/vivadoprogram/signalCycleCPU/signalCycleCPU.srcs/constrs_1/new/test.xdc:39]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/vivadoprogram/signalCycleCPU/signalCycleCPU.srcs/constrs_1/new/test.xdc:39]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'result[10]'. [D:/vivadoprogram/signalCycleCPU/signalCycleCPU.srcs/constrs_1/new/test.xdc:40]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/vivadoprogram/signalCycleCPU/signalCycleCPU.srcs/constrs_1/new/test.xdc:40]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'result[9]'. [D:/vivadoprogram/signalCycleCPU/signalCycleCPU.srcs/constrs_1/new/test.xdc:41]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/vivadoprogram/signalCycleCPU/signalCycleCPU.srcs/constrs_1/new/test.xdc:41]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'result[8]'. [D:/vivadoprogram/signalCycleCPU/signalCycleCPU.srcs/constrs_1/new/test.xdc:42]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/vivadoprogram/signalCycleCPU/signalCycleCPU.srcs/constrs_1/new/test.xdc:42]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'result[7]'. [D:/vivadoprogram/signalCycleCPU/signalCycleCPU.srcs/constrs_1/new/test.xdc:43]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/vivadoprogram/signalCycleCPU/signalCycleCPU.srcs/constrs_1/new/test.xdc:43]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'result[6]'. [D:/vivadoprogram/signalCycleCPU/signalCycleCPU.srcs/constrs_1/new/test.xdc:44]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/vivadoprogram/signalCycleCPU/signalCycleCPU.srcs/constrs_1/new/test.xdc:44]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'result[5]'. [D:/vivadoprogram/signalCycleCPU/signalCycleCPU.srcs/constrs_1/new/test.xdc:45]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/vivadoprogram/signalCycleCPU/signalCycleCPU.srcs/constrs_1/new/test.xdc:45]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'result[4]'. [D:/vivadoprogram/signalCycleCPU/signalCycleCPU.srcs/constrs_1/new/test.xdc:46]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/vivadoprogram/signalCycleCPU/signalCycleCPU.srcs/constrs_1/new/test.xdc:46]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'result[3]'. [D:/vivadoprogram/signalCycleCPU/signalCycleCPU.srcs/constrs_1/new/test.xdc:47]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/vivadoprogram/signalCycleCPU/signalCycleCPU.srcs/constrs_1/new/test.xdc:47]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'result[2]'. [D:/vivadoprogram/signalCycleCPU/signalCycleCPU.srcs/constrs_1/new/test.xdc:48]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/vivadoprogram/signalCycleCPU/signalCycleCPU.srcs/constrs_1/new/test.xdc:48]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'result[1]'. [D:/vivadoprogram/signalCycleCPU/signalCycleCPU.srcs/constrs_1/new/test.xdc:49]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/vivadoprogram/signalCycleCPU/signalCycleCPU.srcs/constrs_1/new/test.xdc:49]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'result[0]'. [D:/vivadoprogram/signalCycleCPU/signalCycleCPU.srcs/constrs_1/new/test.xdc:50]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/vivadoprogram/signalCycleCPU/signalCycleCPU.srcs/constrs_1/new/test.xdc:50]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [D:/vivadoprogram/signalCycleCPU/signalCycleCPU.srcs/constrs_1/new/test.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/vivadoprogram/signalCycleCPU/signalCycleCPU.srcs/constrs_1/new/test.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 969.844 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 969.844 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:21 ; elapsed = 00:00:21 . Memory (MB): peak = 969.844 ; gain = 353.812
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:21 ; elapsed = 00:00:21 . Memory (MB): peak = 969.844 ; gain = 353.812
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:21 ; elapsed = 00:00:21 . Memory (MB): peak = 969.844 ; gain = 353.812
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5545] ROM "romdata" won't be mapped to RAM because address size (30) is larger than maximum supported(25)
+INFO: [Synth 8-5546] ROM "pcindex" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ram2reg" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ramWE" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5587] ROM size for "aluOP" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-5546] ROM "regWE" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5587] ROM size for "imm" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-5587] ROM size for "shift" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-5587] ROM size for "sign_ext" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-5546] ROM "jal" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/vivadoprogram/signalCycleCPU/signalCycleCPU.srcs/sources_1/new/ALU.v:33]
+WARNING: [Synth 8-327] inferring latch for variable 'func_reg' [D:/vivadoprogram/signalCycleCPU/signalCycleCPU.srcs/sources_1/new/ID.v:46]
+WARNING: [Synth 8-327] inferring latch for variable 'rdata_reg' [D:/vivadoprogram/signalCycleCPU/signalCycleCPU.srcs/sources_1/new/ram.v:36]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 969.844 ; gain = 353.812
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 2     
+	   3 Input     32 Bit       Adders := 1     
++---XORs : 
+	   2 Input     32 Bit         XORs := 1     
++---Registers : 
+	               32 Bit    Registers := 2     
++---RAMs : 
+	              992 Bit         RAMs := 1     
+	              512 Bit         RAMs := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 10    
+	  11 Input     32 Bit        Muxes := 1     
+	   4 Input     32 Bit        Muxes := 1     
+	   4 Input     16 Bit        Muxes := 1     
+	   4 Input      5 Bit        Muxes := 2     
+	   2 Input      5 Bit        Muxes := 2     
+	  10 Input      4 Bit        Muxes := 1     
+	  13 Input      4 Bit        Muxes := 1     
+	  10 Input      2 Bit        Muxes := 1     
+	  13 Input      2 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 1     
+	  13 Input      1 Bit        Muxes := 8     
+	  10 Input      1 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module PC 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+Module rom 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+Module ID 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input     16 Bit        Muxes := 1     
+	   4 Input      5 Bit        Muxes := 2     
+	   4 Input      1 Bit        Muxes := 1     
+Module CU 
+Detailed RTL Component Info : 
++---Muxes : 
+	  10 Input      4 Bit        Muxes := 1     
+	  13 Input      4 Bit        Muxes := 1     
+	  10 Input      2 Bit        Muxes := 1     
+	  13 Input      2 Bit        Muxes := 1     
+	  13 Input      1 Bit        Muxes := 8     
+	  10 Input      1 Bit        Muxes := 2     
+Module ext_imm 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+Module selector_5 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      5 Bit        Muxes := 1     
+Module alu_add_4 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+Module selector_32 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+Module registers 
+Detailed RTL Component Info : 
++---RAMs : 
+	              992 Bit         RAMs := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+Module isimm 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+Module alu 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     32 Bit       Adders := 1     
++---XORs : 
+	   2 Input     32 Bit         XORs := 1     
++---Muxes : 
+	  11 Input     32 Bit        Muxes := 1     
+Module ram 
+Detailed RTL Component Info : 
++---RAMs : 
+	              512 Bit         RAMs := 1     
+Module IOManager 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+Module alu_add_b 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+Module selector 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input     32 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-5587] ROM size for "aluOP" is below threshold of ROM address width. It will be mapped to LUTs
+WARNING: [Synth 8-3331] design rom has unconnected port addr[1]
+WARNING: [Synth 8-3331] design rom has unconnected port addr[0]
+WARNING: [Synth 8-3331] design top has unconnected port n[4]
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:42 ; elapsed = 00:00:43 . Memory (MB): peak = 969.844 ; gain = 353.812
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Preliminary Mapping  Report (see note below)
++------------+--------------------+-----------+----------------------+-----------------+
+|Module Name | RTL Object         | Inference | Size (Depth x Width) | Primitives      | 
++------------+--------------------+-----------+----------------------+-----------------+
+|top         | myRegs/regts_reg   | Implied   | 32 x 32              | RAM32M x 12     | 
+|top         | myIOM/dram/ram_reg | Implied   | 16 x 32              | RAM16X1S x 32   | 
++------------+--------------------+-----------+----------------------+-----------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:56 ; elapsed = 00:00:57 . Memory (MB): peak = 969.844 ; gain = 353.812
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:56 ; elapsed = 00:00:57 . Memory (MB): peak = 969.844 ; gain = 353.812
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Final Mapping  Report
++------------+--------------------+-----------+----------------------+-----------------+
+|Module Name | RTL Object         | Inference | Size (Depth x Width) | Primitives      | 
++------------+--------------------+-----------+----------------------+-----------------+
+|top         | myRegs/regts_reg   | Implied   | 32 x 32              | RAM32M x 12     | 
+|top         | myIOM/dram/ram_reg | Implied   | 16 x 32              | RAM16X1S x 32   | 
++------------+--------------------+-----------+----------------------+-----------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:57 ; elapsed = 00:00:58 . Memory (MB): peak = 1046.973 ; gain = 430.941
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:01 ; elapsed = 00:01:02 . Memory (MB): peak = 1062.809 ; gain = 446.777
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:01 ; elapsed = 00:01:02 . Memory (MB): peak = 1062.809 ; gain = 446.777
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:01 ; elapsed = 00:01:02 . Memory (MB): peak = 1062.809 ; gain = 446.777
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:01 ; elapsed = 00:01:02 . Memory (MB): peak = 1062.809 ; gain = 446.777
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:01 ; elapsed = 00:01:02 . Memory (MB): peak = 1062.809 ; gain = 446.777
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:01 ; elapsed = 00:01:02 . Memory (MB): peak = 1062.809 ; gain = 446.777
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |BUFG     |     1|
+|2     |CARRY4   |    24|
+|3     |LUT1     |     3|
+|4     |LUT2     |    79|
+|5     |LUT3     |    28|
+|6     |LUT4     |   112|
+|7     |LUT5     |   141|
+|8     |LUT6     |   392|
+|9     |RAM16X1S |    32|
+|10    |RAM32M   |    12|
+|11    |FDRE     |    39|
+|12    |LD       |    38|
+|13    |IBUF     |     6|
+|14    |OBUF     |     8|
++------+---------+------+
+
+Report Instance Areas: 
++------+---------+----------+------+
+|      |Instance |Module    |Cells |
++------+---------+----------+------+
+|1     |top      |          |   915|
+|2     |  myAdd4 |alu_add_4 |     8|
+|3     |  myAddb |alu_add_b |     8|
+|4     |  myAlu  |alu       |     8|
+|5     |  myID   |ID        |    14|
+|6     |  myIOM  |IOManager |    72|
+|7     |    dram |ram       |    64|
+|8     |  myPC   |PC        |   617|
+|9     |  myRegs |registers |   173|
++------+---------+----------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:01 ; elapsed = 00:01:02 . Memory (MB): peak = 1062.809 ; gain = 446.777
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 5 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:47 ; elapsed = 00:00:58 . Memory (MB): peak = 1062.809 ; gain = 334.453
+Synthesis Optimization Complete : Time (s): cpu = 00:01:02 ; elapsed = 00:01:03 . Memory (MB): peak = 1062.809 ; gain = 446.777
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 106 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 1 inverter(s) to 32 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1062.809 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 82 instances were transformed.
+  LD => LDCE: 6 instances
+  LD => LDCE (inverted pins: G): 32 instances
+  RAM16X1S => RAM32X1S (RAMS32): 32 instances
+  RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 12 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+64 Infos, 78 Warnings, 40 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:12 ; elapsed = 00:01:15 . Memory (MB): peak = 1062.809 ; gain = 709.117
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1062.809 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'D:/vivadoprogram/signalCycleCPU/signalCycleCPU.runs/synth_1/top.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file top_utilization_synth.rpt -pb top_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Fri Jul  1 17:19:55 2022...
