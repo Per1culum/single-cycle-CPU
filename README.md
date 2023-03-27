@@ -26,3 +26,6 @@ isimm.v
 IOManager.v  
 left.v  
 mixAddr.v  
+
+源代码目录：.srcs/source_1/new
+原文件夹输入的时候英文写错了 dont care it
